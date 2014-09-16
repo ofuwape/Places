@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PlaceTableViewController.h
 //  Places
 //
 //  Created by Maputi Botlhole on 9/13/14.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "City.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface PlaceTableViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSArray *places;
 
 @end

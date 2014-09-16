@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  InterestingPlacesTableViewController.h
 //  Places
 //
 //  Created by Maputi Botlhole on 9/13/14.
@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "City.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface InterestingPlacesTableViewController : UITableViewController
 
+@property (strong, nonatomic) City *city;
 @end

@@ -14,14 +14,23 @@
 		FAA44C6819C49B4500D11C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C6719C49B4500D11C1D /* main.m */; };
 		FAA44C6C19C49B4500D11C1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C6B19C49B4500D11C1D /* AppDelegate.m */; };
 		FAA44C6F19C49B4500D11C1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA44C6D19C49B4500D11C1D /* Main.storyboard */; };
-		FAA44C7219C49B4500D11C1D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C7119C49B4500D11C1D /* FirstViewController.m */; };
-		FAA44C7519C49B4500D11C1D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C7419C49B4500D11C1D /* SecondViewController.m */; };
 		FAA44C7719C49B4500D11C1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA44C7619C49B4500D11C1D /* Images.xcassets */; };
 		FAA44C7E19C49B4500D11C1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA44C7D19C49B4500D11C1D /* XCTest.framework */; };
 		FAA44C7F19C49B4500D11C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA44C5B19C49B4500D11C1D /* Foundation.framework */; };
 		FAA44C8019C49B4500D11C1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA44C5F19C49B4500D11C1D /* UIKit.framework */; };
 		FAA44C8819C49B4500D11C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA44C8619C49B4500D11C1D /* InfoPlist.strings */; };
 		FAA44C8A19C49B4500D11C1D /* PlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C8919C49B4500D11C1D /* PlacesTests.m */; };
+		FAA44C9519C49BCA00D11C1D /* PlaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C9419C49BCA00D11C1D /* PlaceTableViewController.m */; };
+		FAA44C9819C49C1E00D11C1D /* InterestingPlacesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C9719C49C1E00D11C1D /* InterestingPlacesTableViewController.m */; };
+		FAA44C9B19C49CA100D11C1D /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C9A19C49CA100D11C1D /* CityViewController.m */; };
+		FAA44C9E19C49DA100D11C1D /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44C9D19C49DA100D11C1D /* Place.m */; };
+		FAA44CA119C49EED00D11C1D /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44CA019C49EED00D11C1D /* PlaceViewController.m */; };
+		FAA44CA319C4A61E00D11C1D /* loc.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA44CA219C4A61D00D11C1D /* loc.png */; };
+		FAA44CA519C4F4B500D11C1D /* details-25.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA44CA419C4F4B500D11C1D /* details-25.png */; };
+		FAA44CA819C4F5CA00D11C1D /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44CA719C4F5C900D11C1D /* City.m */; };
+		FAA44CAB19C63A5B00D11C1D /* EditNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA44CAA19C63A5B00D11C1D /* EditNoteViewController.m */; };
+		FAA44CAF19C7B26C00D11C1D /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA44CAE19C7B26C00D11C1D /* favorite.png */; };
+		FCC99F474D6B4528B85BEE54 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32010F3A7EF248D6BDC6E9CA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2234E04464AC446DA268F9E8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../../../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		32010F3A7EF248D6BDC6E9CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA44C5819C49B4500D11C1D /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA44C5B19C49B4500D11C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAA44C5D19C49B4500D11C1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +57,29 @@
 		FAA44C6A19C49B4500D11C1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAA44C6B19C49B4500D11C1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAA44C6E19C49B4500D11C1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAA44C7019C49B4500D11C1D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FAA44C7119C49B4500D11C1D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FAA44C7319C49B4500D11C1D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FAA44C7419C49B4500D11C1D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FAA44C7619C49B4500D11C1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAA44C7C19C49B4500D11C1D /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA44C7D19C49B4500D11C1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FAA44C8519C49B4500D11C1D /* PlacesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlacesTests-Info.plist"; sourceTree = "<group>"; };
 		FAA44C8719C49B4500D11C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAA44C8919C49B4500D11C1D /* PlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTests.m; sourceTree = "<group>"; };
+		FAA44C9319C49BCA00D11C1D /* PlaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceTableViewController.h; path = ../PlaceTableViewController.h; sourceTree = "<group>"; };
+		FAA44C9419C49BCA00D11C1D /* PlaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceTableViewController.m; path = ../PlaceTableViewController.m; sourceTree = "<group>"; };
+		FAA44C9619C49C1E00D11C1D /* InterestingPlacesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestingPlacesTableViewController.h; sourceTree = "<group>"; };
+		FAA44C9719C49C1E00D11C1D /* InterestingPlacesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestingPlacesTableViewController.m; sourceTree = "<group>"; };
+		FAA44C9919C49CA100D11C1D /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		FAA44C9A19C49CA100D11C1D /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		FAA44C9C19C49DA100D11C1D /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = ../Place.h; sourceTree = "<group>"; };
+		FAA44C9D19C49DA100D11C1D /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = ../Place.m; sourceTree = "<group>"; };
+		FAA44C9F19C49EED00D11C1D /* PlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceViewController.h; path = ../PlaceViewController.h; sourceTree = "<group>"; };
+		FAA44CA019C49EED00D11C1D /* PlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceViewController.m; path = ../PlaceViewController.m; sourceTree = "<group>"; };
+		FAA44CA219C4A61D00D11C1D /* loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loc.png; path = "../../../../Downloads/icons8_lightbox (3)/32/loc.png"; sourceTree = "<group>"; };
+		FAA44CA419C4F4B500D11C1D /* details-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "details-25.png"; path = "../../../../Downloads/icons8_lightbox (4)/25/details-25.png"; sourceTree = "<group>"; };
+		FAA44CA619C4F5C900D11C1D /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		FAA44CA719C4F5C900D11C1D /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		FAA44CA919C63A5B00D11C1D /* EditNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNoteViewController.h; sourceTree = "<group>"; };
+		FAA44CAA19C63A5B00D11C1D /* EditNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNoteViewController.m; sourceTree = "<group>"; };
+		FAA44CAE19C7B26C00D11C1D /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite.png; path = "../../../../Downloads/icons8_lightbox (2)/25/favorite.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,7 @@
 				FAA44C5E19C49B4500D11C1D /* CoreGraphics.framework in Frameworks */,
 				FAA44C6019C49B4500D11C1D /* UIKit.framework in Frameworks */,
 				FAA44C5C19C49B4500D11C1D /* Foundation.framework in Frameworks */,
+				FCC99F474D6B4528B85BEE54 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +114,7 @@
 				FAA44C8319C49B4500D11C1D /* PlacesTests */,
 				FAA44C5A19C49B4500D11C1D /* Frameworks */,
 				FAA44C5919C49B4500D11C1D /* Products */,
+				2234E04464AC446DA268F9E8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +134,7 @@
 				FAA44C5D19C49B4500D11C1D /* CoreGraphics.framework */,
 				FAA44C5F19C49B4500D11C1D /* UIKit.framework */,
 				FAA44C7D19C49B4500D11C1D /* XCTest.framework */,
+				32010F3A7EF248D6BDC6E9CA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +142,26 @@
 		FAA44C6119C49B4500D11C1D /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				FAA44CA419C4F4B500D11C1D /* details-25.png */,
+				FAA44CAE19C7B26C00D11C1D /* favorite.png */,
+				FAA44CA219C4A61D00D11C1D /* loc.png */,
+				FAA44C9F19C49EED00D11C1D /* PlaceViewController.h */,
+				FAA44CA019C49EED00D11C1D /* PlaceViewController.m */,
+				FAA44C9C19C49DA100D11C1D /* Place.h */,
+				FAA44C9D19C49DA100D11C1D /* Place.m */,
+				FAA44C9919C49CA100D11C1D /* CityViewController.h */,
+				FAA44C9A19C49CA100D11C1D /* CityViewController.m */,
+				FAA44CA919C63A5B00D11C1D /* EditNoteViewController.h */,
+				FAA44CAA19C63A5B00D11C1D /* EditNoteViewController.m */,
+				FAA44CA619C4F5C900D11C1D /* City.h */,
+				FAA44CA719C4F5C900D11C1D /* City.m */,
+				FAA44C9619C49C1E00D11C1D /* InterestingPlacesTableViewController.h */,
+				FAA44C9719C49C1E00D11C1D /* InterestingPlacesTableViewController.m */,
+				FAA44C9319C49BCA00D11C1D /* PlaceTableViewController.h */,
+				FAA44C9419C49BCA00D11C1D /* PlaceTableViewController.m */,
 				FAA44C6A19C49B4500D11C1D /* AppDelegate.h */,
 				FAA44C6B19C49B4500D11C1D /* AppDelegate.m */,
 				FAA44C6D19C49B4500D11C1D /* Main.storyboard */,
-				FAA44C7019C49B4500D11C1D /* FirstViewController.h */,
-				FAA44C7119C49B4500D11C1D /* FirstViewController.m */,
-				FAA44C7319C49B4500D11C1D /* SecondViewController.h */,
-				FAA44C7419C49B4500D11C1D /* SecondViewController.m */,
 				FAA44C7619C49B4500D11C1D /* Images.xcassets */,
 				FAA44C6219C49B4500D11C1D /* Supporting Files */,
 			);
@@ -164,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAA44C8D19C49B4600D11C1D /* Build configuration list for PBXNativeTarget "Places" */;
 			buildPhases = (
+				279ED8BD55A4422CA85F6141 /* Check Pods Manifest.lock */,
 				FAA44C5419C49B4500D11C1D /* Sources */,
 				FAA44C5519C49B4500D11C1D /* Frameworks */,
 				FAA44C5619C49B4500D11C1D /* Resources */,
+				5D3EBFD54B8A492DB030C84B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA44CA519C4F4B500D11C1D /* details-25.png in Resources */,
+				FAA44CAF19C7B26C00D11C1D /* favorite.png in Resources */,
+				FAA44CA319C4A61E00D11C1D /* loc.png in Resources */,
 				FAA44C7719C49B4500D11C1D /* Images.xcassets in Resources */,
 				FAA44C6619C49B4500D11C1D /* InfoPlist.strings in Resources */,
 				FAA44C6F19C49B4500D11C1D /* Main.storyboard in Resources */,
@@ -249,14 +294,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		279ED8BD55A4422CA85F6141 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D3EBFD54B8A492DB030C84B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAA44C5419C49B4500D11C1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA44C7519C49B4500D11C1D /* SecondViewController.m in Sources */,
+				FAA44C9819C49C1E00D11C1D /* InterestingPlacesTableViewController.m in Sources */,
 				FAA44C6C19C49B4500D11C1D /* AppDelegate.m in Sources */,
-				FAA44C7219C49B4500D11C1D /* FirstViewController.m in Sources */,
+				FAA44CA819C4F5CA00D11C1D /* City.m in Sources */,
+				FAA44C9B19C49CA100D11C1D /* CityViewController.m in Sources */,
+				FAA44CA119C49EED00D11C1D /* PlaceViewController.m in Sources */,
+				FAA44C9E19C49DA100D11C1D /* Place.m in Sources */,
+				FAA44CAB19C63A5B00D11C1D /* EditNoteViewController.m in Sources */,
+				FAA44C9519C49BCA00D11C1D /* PlaceTableViewController.m in Sources */,
 				FAA44C6819C49B4500D11C1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +462,7 @@
 		};
 		FAA44C8E19C49B4600D11C1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2234E04464AC446DA268F9E8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +476,7 @@
 		};
 		FAA44C8F19C49B4600D11C1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2234E04464AC446DA268F9E8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -462,6 +547,7 @@
 				FAA44C8F19C49B4600D11C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA44C9019C49B4600D11C1D /* Build configuration list for PBXNativeTarget "PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +556,7 @@
 				FAA44C9219C49B4600D11C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
